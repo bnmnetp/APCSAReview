@@ -97,6 +97,8 @@ pygments_style = 'sphinx'
 rst_prolog = (
 # For fill-in-the-blank questions, provide a convenient means to indicate a blank.
 """
+**This book is now obsolete** Please use `CSAwesome </runestone/books/published>`_ instead.
+
 .. |blank| replace:: :blank:`x`
 """
 )
@@ -159,7 +161,7 @@ html_theme_path = [pkg_resources.resource_filename('runestone', 'common/project_
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'AP CSA Java Review'
+html_title = 'AP CSA Java Review - Obsolete'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 html_short_title ='Java Review'
