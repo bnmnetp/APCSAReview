@@ -146,7 +146,7 @@ Since 2D arrays are really arrays of arrays you can also use a nested for-each l
       public static double getAvg(int[][] a)
       {
          double total = 0;
-         for (int[] innerArray : a)
+         for (int[] ColArray : a)
          {
             for (int val : innerArray)
             {
